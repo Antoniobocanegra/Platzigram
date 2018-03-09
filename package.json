@@ -12,16 +12,18 @@
   "author": "Antonio Bocanegra <antoniobocanegragalindez@gmail.com> (https://github.com/Antoniobocanegra)",
   "license": "MIT",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "express": "^4.16.2",
     "materialize-css": "^0.100.2",
     "page": "^1.8.4",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.1",
+    "yo-yo": "^1.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babelify": "^8.0.0",
-    "browserify": "^16.1.0",
+    "browserify": "^16.1.1",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
@@ -30,6 +32,17 @@
   },
   "scrips": {
     "build": "gulp",
-    "start": "start gulp watch &&start node server.js" 
-  }
+    "start": "start gulp watch &&start node server.js"
+  },
+  "scripts": {
+    "start": "gulp watch & node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antoniobocanegra/Platzigram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Antoniobocanegra/Platzigram/issues"
+  },
+  "homepage": "https://github.com/Antoniobocanegra/Platzigram#readme"
 }
