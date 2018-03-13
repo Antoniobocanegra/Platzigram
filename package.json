@@ -17,6 +17,7 @@
     "materialize-css": "^0.100.2",
     "page": "^1.8.4",
     "pug": "^2.0.1",
+    "title": "^1.0.0",
     "yo-yo": "^1.4.1"
   },
   "devDependencies": {
