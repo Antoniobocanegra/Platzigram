@@ -18,7 +18,7 @@ app.get('/signin', function (req, res) {
 	res.render('index', { title: "Platzigram- Signin"});
 }) 
 
-var puerto = 8080;
+var puerto = 3000;
 
 app.listen( puerto, function (err) {
 	if (err) return console.log('Hubo un error'), process.exit(1);
