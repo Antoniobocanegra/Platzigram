@@ -8,5 +8,30 @@ var title = require('title');
 page('/', function (ctx, next) {
 	title('Platzigram');
 	var main = document.getElementById('main-container');
-	empty(main).appendChild(template);
+
+	var pictures = [
+		{
+			user: {
+				username: 'slifszyc',
+				avatar: 'https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg'
+			},
+			url: 'office.jpg',
+			likes: 10,
+			liked: true
+
+		},
+
+		{
+			user: {
+				username: 'slifszyc',
+				avatar: 'https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg'
+			},
+			url: 'office.jpg',
+			likes: 25,
+			liked: true
+
+		},
+	];
+
+	empty(main).appendChild(template(pictures));
 })
