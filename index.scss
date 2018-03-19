@@ -4,7 +4,7 @@ $secondary-color: #125688;
 
 body {
   background: #fafafa;
-  color: #125688;
+  color: $secondary-color;
   font-family: Montserrat;
 }
 
@@ -34,7 +34,6 @@ body {
   font-family: 'Oleo Script';
   font-size: 42px;
   color: $secondary-color !important;
-
 }
 
 .signup-form {
@@ -78,24 +77,23 @@ $avatar-size: 48px;
   height: $avatar-size;
   border-radius: 50%;
   float: left;
-  margin-righ: 12px;
+  margin-right: 12px;
 }
 
 .card .username {
   color: $secondary-color;
 }
 
-.card small.tine {
+.card small.time {
   line-height: $avatar-size;
 }
-
 
 .card p {
   padding: 20px 0;
 }
 
 .card .likes {
-  line-height: 30px ;
+  line-height: 30px;
   margin-left: 12px;
 }
 
@@ -113,9 +111,8 @@ $avatar-size: 48px;
 }
 
 .card.liked {
-
   .fa-heart {
-  display: block;
+    display: block;
   }
 
   .fa-heart-o {

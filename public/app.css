@@ -6971,12 +6971,12 @@ body {
   height: 48px;
   border-radius: 50%;
   float: left;
-  margin-righ: 12px; }
+  margin-right: 12px; }
 
 .card .username {
   color: #125688; }
 
-.card small.tine {
+.card small.time {
   line-height: 48px; }
 
 .card p {
