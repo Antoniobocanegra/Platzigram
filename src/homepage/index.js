@@ -16,7 +16,7 @@ page('/', function (ctx, next) {
 				avatar: 'https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg'
 			},
 			url: 'office.jpg',
-			likes: 10,
+			likes: 0,
 			liked: false,
 			createdAt: new Date() 
 
@@ -28,7 +28,7 @@ page('/', function (ctx, next) {
 				avatar: 'https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg'
 			},
 			url: 'office.jpg',
-			likes: 25,
+			likes: 1,
 			liked: true,
 			createdAt: new Date().setDate(new Date().getDate() - 10)
 

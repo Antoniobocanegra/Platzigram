@@ -9766,7 +9766,7 @@ page('/', function (ctx, next) {
 			avatar: 'https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg'
 		},
 		url: 'office.jpg',
-		likes: 10,
+		likes: 0,
 		liked: false,
 		createdAt: new Date()
 
@@ -9776,7 +9776,7 @@ page('/', function (ctx, next) {
 			avatar: 'https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg'
 		},
 		url: 'office.jpg',
-		likes: 25,
+		likes: 1,
 		liked: true,
 		createdAt: new Date().setDate(new Date().getDate() - 10)
 
@@ -9790,7 +9790,9 @@ page('/', function (ctx, next) {
 
 var _templateObject = _taggedTemplateLiteral(['<div class="container timeline">\n\t\t<div class="row">\n\t\t\t<div class="col s12 m10 offset-m1 l6 offset-l3">\n\t\t\t\t', '\n\t\t\t</div>\n\t\t</div>\n\t</div>'], ['<div class="container timeline">\n\t\t<div class="row">\n\t\t\t<div class="col s12 m10 offset-m1 l6 offset-l3">\n\t\t\t\t', '\n\t\t\t</div>\n\t\t</div>\n\t</div>']);
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+	return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var yo = require('yo-yo');
 var layout = require('../layout');
@@ -9820,7 +9822,9 @@ page();
 
 var _templateObject = _taggedTemplateLiteral(['<div class="container landing">\n\t\t<div class="row">\n\t\t\t<div class="col s10 push-s1">\n\t\t\t\t<div class="row">\n\t\t\t\t\t<div class="col m5 hide-on-small-only">\n\t\t\t\t\t\t<img class="iphone" src="iphone.png"/>\n\t\t\t\t\t</div>\n\t\t\t\t\t', '\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>'], ['<div class="container landing">\n\t\t<div class="row">\n\t\t\t<div class="col s10 push-s1">\n\t\t\t\t<div class="row">\n\t\t\t\t\t<div class="col m5 hide-on-small-only">\n\t\t\t\t\t\t<img class="iphone" src="iphone.png"/>\n\t\t\t\t\t</div>\n\t\t\t\t\t', '\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>']);
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+	return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var yo = require('yo-yo');
 
@@ -9833,7 +9837,9 @@ module.exports = function landing(box) {
 
 var _templateObject = _taggedTemplateLiteral(['<div>\n\t\t<nav class="header">\n\t\t\t<div class="nav-wrapper">\n\t\t\t\t<div class="container">\n\t\t\t\t\t<div class="row">\n\t\t\t\t\t\t<div class="col s12 m6 offset-m1">\n\t\t\t\t\t\t\t<a href="/" class="brand-logo platzigram">Platzigram</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class="col s2 m6 push-s10 push-m10">\n\t\t\t\t\t\t\t<a href="#" class="btn btn-large btn-flat dropdown-button" data-activates="drop-user">\n\t\t\t\t\t\t\t\t<i class="fa fa-user" aria-hidden="true"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<ul id="drop-user" class="dropdown-content">\n\t\t\t\t\t\t\t\t<li><a href="#">Salir</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</nav>\n\t\t<div class="content">\n\t\t\t', '\n\t\t</div>\n\t</div>'], ['<div>\n\t\t<nav class="header">\n\t\t\t<div class="nav-wrapper">\n\t\t\t\t<div class="container">\n\t\t\t\t\t<div class="row">\n\t\t\t\t\t\t<div class="col s12 m6 offset-m1">\n\t\t\t\t\t\t\t<a href="/" class="brand-logo platzigram">Platzigram</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class="col s2 m6 push-s10 push-m10">\n\t\t\t\t\t\t\t<a href="#" class="btn btn-large btn-flat dropdown-button" data-activates="drop-user">\n\t\t\t\t\t\t\t\t<i class="fa fa-user" aria-hidden="true"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<ul id="drop-user" class="dropdown-content">\n\t\t\t\t\t\t\t\t<li><a href="#">Salir</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</nav>\n\t\t<div class="content">\n\t\t\t', '\n\t\t</div>\n\t</div>']);
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+	return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var yo = require('yo-yo');
 
@@ -9844,30 +9850,21 @@ module.exports = function layout(content) {
 },{"yo-yo":35}],42:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['<div class="card ', ' ">\n      <div class="card-image">\n        <img class="activator" src="', '">\n      </div>\n      <div class="card-content">\n        <a href="/user/', '" class="card-title">\n          <img src="', '" class="avatar" />\n          <span class="username">', '</span>\n        </a>\n        <small class="right time">', '</small>\n        <p>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart-o" aria-hidden="true"></i></a>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart" aria-hidden="true"></i></a>\n          <span class="left likes">', ' me gusta</span>\n        </p>\n      </div>\n    </div>'], ['<div class="card ', ' ">\n      <div class="card-image">\n        <img class="activator" src="', '">\n      </div>\n      <div class="card-content">\n        <a href="/user/', '" class="card-title">\n          <img src="', '" class="avatar" />\n          <span class="username">', '</span>\n        </a>\n        <small class="right time">', '</small>\n        <p>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart-o" aria-hidden="true"></i></a>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart" aria-hidden="true"></i></a>\n          <span class="left likes">', ' me gusta</span>\n        </p>\n      </div>\n    </div>']);
+var _templateObject = _taggedTemplateLiteral(['<div class="card ', ' ">\n      <div class="card-image">\n        <img class="activator" src="', '">\n      </div>\n      <div class="card-content">\n        <a href="/user/', '" class="card-title">\n          <img src="', '" class="avatar" />\n          <span class="username">', '</span>\n        </a>\n        <small class="right time">', '</small>\n        <p>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart-o" aria-hidden="true"></i></a>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart" aria-hidden="true"></i></a>\n          <span class="left likes">', '</span>\n        </p>\n      </div>\n    </div>'], ['<div class="card ', ' ">\n      <div class="card-image">\n        <img class="activator" src="', '">\n      </div>\n      <div class="card-content">\n        <a href="/user/', '" class="card-title">\n          <img src="', '" class="avatar" />\n          <span class="username">', '</span>\n        </a>\n        <small class="right time">', '</small>\n        <p>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart-o" aria-hidden="true"></i></a>\n          <a class="left" href="#" onclick=', '><i class="fa fa-heart" aria-hidden="true"></i></a>\n          <span class="left likes">', '</span>\n        </p>\n      </div>\n    </div>']);
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var yo = require('yo-yo');
-
-if (!window.Intl) {
-  window.Intl = require('intl');
-  require('intl/locale-data/jsonp/en-US.js');
-  require('intl/locale-data/jsonp/es.js');
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
 }
 
-window.IntlRelativeFormat = require('intl-relativeformat');
-require('intl-relativeformat/dist/locale-data/en.js');
-require('intl-relativeformat/dist/locale-data/es.js');
-
-var rf = new IntlRelativeFormat('es');
+var yo = require('yo-yo');
+var translate = require('../translate');
 
 module.exports = function pictureCard(pic) {
 
   var el;
 
   function render(picture) {
-    return yo(_templateObject, pic.liked ? 'liked' : '', picture.url, picture.user.username, picture.user.avatar, picture.user.username, rf.format(picture.createdAt), like.bind(null, true), like.bind(null, false), picture.likes);
+    return yo(_templateObject, pic.liked ? 'liked' : '', picture.url, picture.user.username, picture.user.avatar, picture.user.username, translate.date.format(picture.createdAt), like.bind(null, true), like.bind(null, false), translate.message('likes', { likes: picture.likes }));
   }
 
   function like(liked) {
@@ -9882,7 +9879,7 @@ module.exports = function pictureCard(pic) {
   return el;
 };
 
-},{"intl":25,"intl-relativeformat":19,"intl-relativeformat/dist/locale-data/en.js":17,"intl-relativeformat/dist/locale-data/es.js":18,"intl/locale-data/jsonp/en-US.js":27,"intl/locale-data/jsonp/es.js":28,"yo-yo":35}],43:[function(require,module,exports){
+},{"../translate":49,"yo-yo":35}],43:[function(require,module,exports){
 'use strict';
 
 var page = require('page');
@@ -9901,7 +9898,9 @@ page('/signin', function (ctx, next) {
 
 var _templateObject = _taggedTemplateLiteral(['<div class="col s12 m7">\n\t<div class="row">\n\t\t<div class="signup-box">\n\t\t\t<h1 class="platzigram">Platzigram</h1>\n\t\t\t<form class="signup-form">\n\t\t\t\t<div class="section">\n\t\t\t\t\t<a class="btn btn-fb hide-on-small-only">Iniciar sesi\xF3n con Facebook</a>\n\t\t\t\t\t<a class="btn btn-fb hide-on-med-and-up"><i class="fa fa-facebook-official"></i>Iniciar sesi\xF3n</a>\n\t\t\t\t</div>\n\t\t\t\t<div class="divider"></div>\n\t\t\t\t<div class="section">\n\t\t\t\t\t<input type="text" name="username" placeholder="Nombre de usuario"/>\n\t\t\t\t\t<input type="password" name="password" placeholder="Contrase\xF1a"/>\n\t\t\t\t\t<button class="btn waves-effect waves-light btn-signup">Inicia sesi\xF3n</button>\n\t\t\t\t</div>\n\t\t\t</form>\n\t\t</div>\n\t</div>\n\t<div class="row">\n\t\t<div class="login-box">\n\t\t\t\xBFNo tienes una cuenta? <a href="/signup">Reg\xEDstrate</a>\n\t\t</div>\n\t</div>\n</div>'], ['<div class="col s12 m7">\n\t<div class="row">\n\t\t<div class="signup-box">\n\t\t\t<h1 class="platzigram">Platzigram</h1>\n\t\t\t<form class="signup-form">\n\t\t\t\t<div class="section">\n\t\t\t\t\t<a class="btn btn-fb hide-on-small-only">Iniciar sesi\xF3n con Facebook</a>\n\t\t\t\t\t<a class="btn btn-fb hide-on-med-and-up"><i class="fa fa-facebook-official"></i>Iniciar sesi\xF3n</a>\n\t\t\t\t</div>\n\t\t\t\t<div class="divider"></div>\n\t\t\t\t<div class="section">\n\t\t\t\t\t<input type="text" name="username" placeholder="Nombre de usuario"/>\n\t\t\t\t\t<input type="password" name="password" placeholder="Contrase\xF1a"/>\n\t\t\t\t\t<button class="btn waves-effect waves-light btn-signup">Inicia sesi\xF3n</button>\n\t\t\t\t</div>\n\t\t\t</form>\n\t\t</div>\n\t</div>\n\t<div class="row">\n\t\t<div class="login-box">\n\t\t\t\xBFNo tienes una cuenta? <a href="/signup">Reg\xEDstrate</a>\n\t\t</div>\n\t</div>\n</div>']);
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var yo = require('yo-yo');
 var landing = require('../landing');
@@ -9929,7 +9928,9 @@ page('/signup', function (ctx, next) {
 
 var _templateObject = _taggedTemplateLiteral(['<div class="col s12 m7">\n\t\t\t\t\t\t<div class="row">\n\t\t\t\t\t\t\t<div class="signup-box">\n\t\t\t\t\t\t\t\t<h1 class="platzigram">Platzigram</h1>\n\t\t\t\t\t\t\t\t<form class="signup-form">\n\t\t\t\t\t\t\t\t\t<h2>Reg\xEDstrate para ver fotos de tus amigos en Platzi</h2>\n\t\t\t\t\t\t\t\t\t<div class="section">\n\t\t\t\t\t\t\t\t\t\t<a class="btn btn-fb hide-on-small-only">Iniciar sesi\xF3n con Facebook</a>\n\t\t\t\t\t\t\t\t\t\t<a class="btn btn-fb hide-on-med-and-up"><i class="fa fa-facebook-official"></i>Iniciar sesi\xF3n</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class="divider"></div>\n\t\t\t\t\t\t\t\t\t<div class="section">\n\t\t\t\t\t\t\t\t\t\t<input type="email" name="email" placeholder="Correro electr\xF3nico"/>\n\t\t\t\t\t\t\t\t\t\t<input type="text" name="name" placeholder="Nombre completo"/>\n\t\t\t\t\t\t\t\t\t\t<input type="text" name="username" placeholder="Nombre de usuario"/>\n\t\t\t\t\t\t\t\t\t\t<input type="password" name="password" placeholder="Contrase\xF1a"/>\n\t\t\t\t\t\t\t\t\t\t<button class="btn waves-effect waves-light btn-signup">Reg\xEDstrate</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class="row">\n\t\t\t\t\t\t\t<div class="login-box">\n\t\t\t\t\t\t\t\t\xBFTienes una cuenta? <a href="/signin">Entrar</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>'], ['<div class="col s12 m7">\n\t\t\t\t\t\t<div class="row">\n\t\t\t\t\t\t\t<div class="signup-box">\n\t\t\t\t\t\t\t\t<h1 class="platzigram">Platzigram</h1>\n\t\t\t\t\t\t\t\t<form class="signup-form">\n\t\t\t\t\t\t\t\t\t<h2>Reg\xEDstrate para ver fotos de tus amigos en Platzi</h2>\n\t\t\t\t\t\t\t\t\t<div class="section">\n\t\t\t\t\t\t\t\t\t\t<a class="btn btn-fb hide-on-small-only">Iniciar sesi\xF3n con Facebook</a>\n\t\t\t\t\t\t\t\t\t\t<a class="btn btn-fb hide-on-med-and-up"><i class="fa fa-facebook-official"></i>Iniciar sesi\xF3n</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class="divider"></div>\n\t\t\t\t\t\t\t\t\t<div class="section">\n\t\t\t\t\t\t\t\t\t\t<input type="email" name="email" placeholder="Correro electr\xF3nico"/>\n\t\t\t\t\t\t\t\t\t\t<input type="text" name="name" placeholder="Nombre completo"/>\n\t\t\t\t\t\t\t\t\t\t<input type="text" name="username" placeholder="Nombre de usuario"/>\n\t\t\t\t\t\t\t\t\t\t<input type="password" name="password" placeholder="Contrase\xF1a"/>\n\t\t\t\t\t\t\t\t\t\t<button class="btn waves-effect waves-light btn-signup">Reg\xEDstrate</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class="row">\n\t\t\t\t\t\t\t<div class="login-box">\n\t\t\t\t\t\t\t\t\xBFTienes una cuenta? <a href="/signin">Entrar</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>']);
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var yo = require('yo-yo');
 var landing = require('../landing');
@@ -9938,4 +9939,82 @@ var signupForm = yo(_templateObject);
 
 module.exports = landing(signupForm);
 
-},{"../landing":40,"yo-yo":35}]},{},[39]);
+},{"../landing":40,"yo-yo":35}],47:[function(require,module,exports){
+'use strict';
+
+module.exports = {
+    likes: '{ likes, plural, ' + /*prural es el tipo de dato*/
+    '=0 {no likes}' + '=1 {# like}' + 'other {# likes}}',
+    logout: 'Logout',
+    english: 'English',
+    spanish: 'Spanish',
+    'signup.subheading': 'Signup to watch your friends\' students',
+    'signup.facebook': 'Signup with Facebook',
+    'signup.text': 'Signup',
+    'email': 'Email',
+    'username': 'User name',
+    'fullname': 'Full name',
+    'password': 'Password',
+    'signup.call-to-action': 'Singup',
+    'signup.have-account': 'Already have an account?',
+    'signin': 'Signin',
+    'signin.not-have-account': 'Don\'t have an account?',
+    'language': 'Language'
+};
+
+},{}],48:[function(require,module,exports){
+'use strict';
+
+module.exports = {
+    'likes': '{ likes, number } me gusta',
+    'logout': 'Salir',
+    'english': 'Inglés',
+    'spanish': 'Español',
+    'signup.subheading': 'Regístrate para ver fotos de tus amigos estudiando en Platzi',
+    'signup.facebook': 'Iniciar sesión con Facebook',
+    'signup.text': 'Iniciar sesión',
+    'email': 'Correo electrónico',
+    'username': 'Nombre de usuario',
+    'fullname': 'Nombre completo',
+    'password': 'Contraseña',
+    'signup.call-to-action': 'Regístrate',
+    'signup.have-account': '¿Tienes una cuenta?',
+    'signin': 'Entrar',
+    'signin.not-have-account': '¿No tienes una cuenta?',
+    'language': 'Idioma'
+};
+
+},{}],49:[function(require,module,exports){
+'use strict';
+
+if (!window.Intl) {
+  window.Intl = require('intl');
+  require('intl/locale-data/jsonp/en-US.js');
+  require('intl/locale-data/jsonp/es.js');
+}
+
+var IntlRelativeFormat = window.IntlRelativeFormat = require('intl-relativeformat');
+var IntlMessageFormat = require('intl-messageformat');
+
+require('intl-relativeformat/dist/locale-data/en.js');
+require('intl-relativeformat/dist/locale-data/es.js');
+
+var es = require('./es');
+var en = require('./en-US');
+
+var MESSAGES = {};
+MESSAGES.es = es;
+MESSAGES['en-US'] = en;
+
+var locale = 'en-US';
+
+module.exports = {
+  message: function message(text, opts) {
+    opts = opts || {};
+    var msg = new IntlMessageFormat(MESSAGES[locale][text], locale, null);
+    return msg.format(opts);
+  },
+  date: new IntlRelativeFormat(locale)
+};
+
+},{"./en-US":47,"./es":48,"intl":25,"intl-messageformat":10,"intl-relativeformat":19,"intl-relativeformat/dist/locale-data/en.js":17,"intl-relativeformat/dist/locale-data/es.js":18,"intl/locale-data/jsonp/en-US.js":27,"intl/locale-data/jsonp/es.js":28}]},{},[39]);
